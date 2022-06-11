@@ -1,0 +1,128 @@
+@font-face {
+    src:url(Maghfirea.ttf);
+    font-family: Maghfirea;
+ }
+body{
+    background-color: #a1d9cf;
+}
+textarea {
+    margin-top: 10px;
+    width: 70vw;
+    height: 20vh;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.07);
+    border-color: -moz-use-text-color #FFFFFF #FFFFFF -moz-use-text-color;
+    border-image: none;
+    border-radius: 6px 6px 6px 6px;
+    border-style: none solid solid none;
+    border-width: medium 1px 1px medium;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+    color: #555555;
+    font-size: 30px;
+    line-height: 1.4em;
+    padding-bottom: 50px;
+    transition: background-color 0.2s ease 0s;
+    text-indent: 25px;
+    color:rgb(67, 11, 151);
+    font-family: Maghfirea;
+    font-weight: bold;
+    letter-spacing: 5px;
+  }
+  
+  
+  textarea:focus {
+      /* background: none repeat scroll 0 0 #FFFFFF; */
+      outline-width: 0;
+  }
+ 
+* {
+    box-sizing: border-box;
+}
+ 
+.header {
+    font-size: 50px;
+    text-align: center;
+    /* background-color: #f77e38; */
+    padding: 1rem;
+    font-family: Maghfirea;
+    font-weight: bold;
+    color:brown;
+}
+
+.main {
+    box-sizing: border-box;
+    margin-left: 15vw;
+    padding-top: 50px;
+}
+ 
+:root {
+    --bg: #1a1e24;
+    --color: #eee;
+    --font: Montserrat, Roboto, Helvetica, Arial, sans-serif;
+}
+.wrapper {
+    padding: 1.5rem 0;
+    filter: url('#goo');
+}
+
+.button {
+    display: inline-block;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 0;
+    background: var(--color);
+    color: var(--bg);
+    font-weight: bold;
+    padding: 15px 25px;
+    line-height: 1;
+    border-radius: 1em;
+    position: relative;
+    /* min-width: 8.23em; */
+    text-decoration: none;
+    font-family: var(--font);
+    font-size: 25px;
+    background-color: #0cb172;
+    font-family: Maghfirea;
+    font-weight: bold;
+}
+
+.button:before,
+.button:after {
+    width: 4.4em;
+    height: 2.95em;
+    position: absolute;
+    content: "";
+    display: inline-block;
+    background: var(--color);
+    border-radius: 50%;
+    transition: transform 1s ease;
+    transform: scale(0);
+    z-index: -1;
+}
+
+.button:before {
+    top: -25%;
+    left: 20%;
+}
+
+.button:after {
+    bottom: -25%;
+    right: 20%;
+}
+
+.button:hover:before,
+.button:hover:after {
+    transform: none;
+    background-color: #3c8c64;
+}
+
+.button:hover{
+    background-color: #3c8c64;
+}
+
+
+
