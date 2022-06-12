@@ -1,5 +1,6 @@
 var inputText = document.getElementById('input-text');
 function morse() {     
+    document.getElementById('copy').innerHTML = "Sao chép";
     document.getElementById('output-text').innerHTML = '';
     var text = inputText.value.toUpperCase();
     for(i=0;i<text.length;i++){
@@ -60,4 +61,5 @@ function copy() {
     copyText.setSelectionRange(0, 99999); /* For mobile devices */
     /* Copy the text inside the text field */
     navigator.clipboard.writeText(copyText.value);
+    document.getElementById('copy').innerHTML = "Đã sao chép"
   }
