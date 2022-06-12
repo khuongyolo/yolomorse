@@ -46,7 +46,7 @@ function morse() {
             case 'C': 
             if (text[i+1]=='H'){
                     document.getElementById('output-text').innerHTML += '-----';
-                     i++;
+                     i++; 
             }
                     else document.getElementById('output-text').innerHTML += '-.-.';
             break;
